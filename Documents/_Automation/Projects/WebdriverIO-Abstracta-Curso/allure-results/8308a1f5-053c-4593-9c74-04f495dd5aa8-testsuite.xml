@@ -1,0 +1,161 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675453536435' stop='1675453546840'>
+    <name>Opencart</name>
+    <title>Opencart</title>
+    <test-cases>
+        <test-case start='1675453536435' status='broken' stop='1675453546839'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675453536448' status='passed' stop='1675453538671'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2fced07e-c4cf-4291-8aa1-a1998b5dc7b7-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453538673' status='passed' stop='1675453538714'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7d0bd55f-5c0a-47bf-a07a-a47ca46ebe20-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='6920d5a9-ca60-4043-8c94-eb81cbe6468b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453538720' status='passed' stop='1675453538773'>
+                    <name>POST /session/:sessionId/element/2e8c663e-78e6-404a-8284-27ecad5dcbaa/clear</name>
+                    <title>POST /session/:sessionId/element/2e8c663e-78e6-404a-8284-27ecad5dcbaa/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675453538779' status='passed' stop='1675453538862'>
+                    <name>POST /session/:sessionId/element/2e8c663e-78e6-404a-8284-27ecad5dcbaa/value</name>
+                    <title>POST /session/:sessionId/element/2e8c663e-78e6-404a-8284-27ecad5dcbaa/value</title>
+                    <attachments>
+                        <attachment title='Request' source='86443936-02fe-411c-89f1-886ca3dea54f-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453538863' status='passed' stop='1675453539390'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='50b5e960-544a-4f56-919c-8f286248bf0b-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453539390' status='passed' stop='1675453539404'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675453539405' status='passed' stop='1675453539449'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dfec7a1f-11c3-488e-a17d-d731b4416b46-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='14c15522-7e34-42e3-b328-696bfddb5274-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453539453' status='passed' stop='1675453541355'>
+                    <name>POST /session/:sessionId/element/98309bed-ec30-4902-adbb-a1a47a0af83b/click</name>
+                    <title>POST /session/:sessionId/element/98309bed-ec30-4902-adbb-a1a47a0af83b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675453541355' status='passed' stop='1675453541383'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='642dda39-4746-4b41-bf18-d8245c5c5bc0-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='98d8e215-0ce2-48b4-9916-c8778ba72ed2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453541385' status='passed' stop='1675453541422'>
+                    <name>GET /session/:sessionId/element/8ccf5ba2-e649-4c95-a42c-41e833fbf277/text</name>
+                    <title>GET /session/:sessionId/element/8ccf5ba2-e649-4c95-a42c-41e833fbf277/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a1500cc2-9ba5-4bec-aeb8-76b82fa911a9-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453541424' status='passed' stop='1675453541498'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f726f77c-96bd-4299-9c83-3dd35da2d8df-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='d9151bc0-9f22-4d43-93c1-34536c8cd8d9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453541500' status='passed' stop='1675453541532'>
+                    <name>POST /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/elements</name>
+                    <title>POST /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d48c7b98-2cdc-4942-a05b-48c27b719278-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='c9e4d577-f1cb-48af-a17f-15b2535c657e-attachment.json' type='application/json' size='457'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453541532' status='passed' stop='1675453541582'>
+                    <name>POST /session/:sessionId/element/5b4acc80-f732-4b63-a717-eaaa27276a38/click</name>
+                    <title>POST /session/:sessionId/element/5b4acc80-f732-4b63-a717-eaaa27276a38/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675453541583' status='passed' stop='1675453541620'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b6dbe76d-40f5-41e0-93a5-6484677e9788-attachment.json' type='application/json' size='302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453546627' status='passed' stop='1675453546642'>
+                    <name>GET /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/property/value</name>
+                    <title>GET /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/property/value</title>
+                    <attachments>
+                        <attachment title='Response' source='64750ce3-67b8-4a4a-aa6d-4a0655037b29-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453546642' status='passed' stop='1675453546657'>
+                    <name>GET /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/property/value</name>
+                    <title>GET /session/:sessionId/element/38a9eef0-3d3b-450a-918b-89c771221108/property/value</title>
+                    <attachments>
+                        <attachment title='Response' source='b873f6fb-92b5-44f6-b6e9-db46bdce7cd7-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675453546663' status='passed' stop='1675453546837'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9e44613f-c9b0-4ac5-ad22-4a2a63413244-attachment.png' type='image/png' size='198926'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading '_color')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading '_color')
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\/opencart.test.js:83:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

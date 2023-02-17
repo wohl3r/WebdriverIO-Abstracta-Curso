@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674583892096' stop='1674583895312'>
+    <name>Opencart</name>
+    <title>Opencart</title>
+    <test-cases>
+        <test-case start='1674583892097' status='broken' stop='1674583895310'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.75'/>
+            </parameters>
+            <steps>
+                <step start='1674583892101' status='passed' stop='1674583894463'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b56b81ea-8b71-4574-b5f0-13930058cce9-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674583894464' status='passed' stop='1674583894519'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e0062480-3315-4925-bf04-76cde9cbe2c1-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='e8a777ae-84d9-46e9-9fed-df56ca6c9b87-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674583894530' status='passed' stop='1674583894686'>
+                    <name>POST /session/:sessionId/element/d8aefdc6-53c8-4540-a973-17955e0ffcc1/clear</name>
+                    <title>POST /session/:sessionId/element/d8aefdc6-53c8-4540-a973-17955e0ffcc1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1674583894696' status='passed' stop='1674583894792'>
+                    <name>POST /session/:sessionId/element/d8aefdc6-53c8-4540-a973-17955e0ffcc1/value</name>
+                    <title>POST /session/:sessionId/element/d8aefdc6-53c8-4540-a973-17955e0ffcc1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4b73bd44-5073-4613-8d86-2a8d29c525b2-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674583894798' status='passed' stop='1674583895308'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fe428c6e-1a86-42d7-aa87-879a2b0251ae-attachment.png' type='image/png' size='249364'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>barraDeBusqueda.Keys is not a function</message>
+                <stack-trace>TypeError: barraDeBusqueda.Keys is not a function
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\/opencart.test.js:12:29)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

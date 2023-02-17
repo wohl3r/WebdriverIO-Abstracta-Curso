@@ -1,0 +1,132 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675444073361' stop='1675444079495'>
+    <name>Opencart</name>
+    <title>Opencart</title>
+    <test-cases>
+        <test-case start='1675444073361' status='failed' stop='1675444079494'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675444073414' status='passed' stop='1675444075659'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1639dbaf-826d-45a1-8136-4955afe264f4-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444075660' status='passed' stop='1675444075699'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='69910833-9c17-4938-ab86-00f8644df60a-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='89eb0cea-107e-43ed-b6ea-89939552ee9f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444075713' status='passed' stop='1675444075803'>
+                    <name>POST /session/:sessionId/element/9b12409c-dcef-4115-897c-4429baca3bcc/clear</name>
+                    <title>POST /session/:sessionId/element/9b12409c-dcef-4115-897c-4429baca3bcc/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675444075810' status='passed' stop='1675444075931'>
+                    <name>POST /session/:sessionId/element/9b12409c-dcef-4115-897c-4429baca3bcc/value</name>
+                    <title>POST /session/:sessionId/element/9b12409c-dcef-4115-897c-4429baca3bcc/value</title>
+                    <attachments>
+                        <attachment title='Request' source='d1d8a150-d16c-4981-a276-7fc47318dac8-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444075932' status='passed' stop='1675444076471'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='e3cb9df5-b6ce-4676-a1ad-b67ba0f465f2-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444076471' status='passed' stop='1675444076505'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675444076511' status='passed' stop='1675444076614'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='812b2a93-f4ab-4c09-b7ca-a406b6c8205b-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='c80843df-8b81-4dc9-a5a7-9aa9a4370240-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444076627' status='passed' stop='1675444078628'>
+                    <name>POST /session/:sessionId/element/1e520cb1-fcb2-4199-9685-9c9a00884465/click</name>
+                    <title>POST /session/:sessionId/element/1e520cb1-fcb2-4199-9685-9c9a00884465/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675444078628' status='passed' stop='1675444078675'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='272c1e59-e966-44bc-9773-3f84695343f0-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ec0419dd-243a-41e1-ad33-9231cd591e61-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444078685' status='passed' stop='1675444078789'>
+                    <name>POST /session/:sessionId/element/98cf2503-058a-4501-9618-ae494be68900/elements</name>
+                    <title>POST /session/:sessionId/element/98cf2503-058a-4501-9618-ae494be68900/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c6638819-6e91-4114-9621-bdddaa31e446-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='aaf427ac-8c93-4f1c-a2aa-ef8d9ea0ded0-attachment.json' type='application/json' size='457'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444078789' status='passed' stop='1675444078895'>
+                    <name>POST /session/:sessionId/element/eee4f146-5065-4188-ba3b-fb5889b1d524/click</name>
+                    <title>POST /session/:sessionId/element/eee4f146-5065-4188-ba3b-fb5889b1d524/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675444078896' status='passed' stop='1675444079025'>
+                    <name>GET /session/:sessionId/element/98cf2503-058a-4501-9618-ae494be68900/text</name>
+                    <title>GET /session/:sessionId/element/98cf2503-058a-4501-9618-ae494be68900/text</title>
+                    <attachments>
+                        <attachment title='Response' source='5d6d40bf-9de2-4b11-9f14-5b790679280b-attachment.json' type='application/json' size='262'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675444079033' status='passed' stop='1675444079485'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='db0efc34-2cf6-4754-9338-18f31f9d0d59-attachment.png' type='image/png' size='206301'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(+$3.60): expected '                 --- Please Select --…' to equal 'Blue'      
+                      actual expected
+                      
+                      '                 --- Please Select ---\n                                Red (+$4.80)\n                                Blue (+$3.60)\n                                Green (+$1.20)\n                                Yellow (+$2.40)\n                              '
+                      </message>
+                <stack-trace>AssertionError: (+$3.60): expected '                 --- Please Select --…' to equal 'Blue'
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\/opencart.test.js:79:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

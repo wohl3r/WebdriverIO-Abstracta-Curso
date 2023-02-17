@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675195783579' stop='1675195783803'>
+    <name>Opencart</name>
+    <title>Opencart</title>
+    <test-cases>
+        <test-case start='1675195783579' status='broken' stop='1675195783802'>
+            <name>Deberia subir datos al navegador.</name>
+            <title>Deberia subir datos al navegador.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675195783585' status='passed' stop='1675195783639'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4bac7fb9-d693-4f80-9b8e-0560e7e97023-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='eb79e67e-c91d-4633-9bca-596ddd23f9e1-attachment.json' type='application/json' size='958'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675195783654' status='passed' stop='1675195783800'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='328cd871-942d-4ec2-8fad-ea22fb3737bb-attachment.png' type='image/png' size='8715'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot find module 'C:/Users/Usuario/Documents/_Automation/Projects/WebdriverIO-Abstracta-Curso/tests'
+                Require stack:
+                - C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\opencart.test.js</message>
+                <stack-trace>Error: Cannot find module 'C:/Users/Usuario/Documents/_Automation/Projects/WebdriverIO-Abstracta-Curso/tests'
+                Require stack:
+                - C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\opencart.test.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+                    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+                    at Module.require (node:internal/modules/cjs/loader:1028:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at Context.&lt;anonymous> (C:\Users\Usuario\Documents\_Automation\Projects\WebdriverIO-Abstracta-Curso\tests\/opencart.test.js:39:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
